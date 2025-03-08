@@ -1,12 +1,7 @@
 const CONFIG = new Config({
-  crypto: {
-    coin: 'ETH',
-    currency: 'USD',
-    refreshIn: 10
-  },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Legnago, Verona',
     scale: 'C'
   },
   clock: {
@@ -138,6 +133,36 @@ const CONFIG = new Config({
             {
               name: '/mu/',
               url: 'https://boards.4channel.org/mu/',
+            }
+          ]
+        },
+        {
+          name: 'vtubers',
+          links: [
+            {
+              name: 'Nimi',
+              url: 'www.youtube.com/@niminightmare',
+              icon: 'cloud'
+            },
+            {
+              name: 'Tenma',
+              url: 'https://www.youtube.com/@TenmaMaemi',
+              icon: 'glass'
+            },
+            {
+              name: 'Zentreya',
+              url: 'https://www.twitch.tv/zentreya',
+              icon: 'robot'
+            },
+            {
+              name: 'Gigi',
+              url: 'https://www.youtube.com/@holoen_gigimurin',
+              icon: 'woman'
+            },
+            {
+              name: 'Bijou',
+              url: 'https://www.youtube.com/@KosekiBijou',
+              icon: 'weight'
             }
           ]
         }
