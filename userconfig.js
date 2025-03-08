@@ -100,7 +100,7 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'music',
+      name: 'Hobby',
       background_url: 'src/img/banners/bg-2.gif',
       categories: [
         {
